@@ -1,0 +1,112 @@
+.nav-link {
+ padding-left: 1rem !important;
+ padding-right: 1rem !important;
+}
+
+.shadow-footer{
+    box-shadow: 0px -5px 10px rgba(0,0,0,0.2);
+}
+
+.big-text{
+    font-size: 4rem;
+}
+
+.text-white{
+    color: white;
+}
+
+body:not(#home-body){
+    background-color: black;
+}
+
+#home-body {
+    background-image: url("/Assets/images/home-bg.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.home-text-container{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    width: 50%;
+    padding: 40px; 
+    box-shadow: 5px 5px 0px 0px white;
+}
+
+#project,
+#services,
+#about,
+#contact{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.project-text-container,
+.contact-text-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 5px 5px 0px 0px white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.project-text-container>div {
+    padding: 40px;
+}
+
+.project-text-container>img{
+    width: 360px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.services-text-container,
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    box-shadow: 5px 5px 0px 0px white;
+    margin: 20px;
+    width: 30%;
+}
+
+.services-text-container>div,
+.about-text-container>div {
+    padding: 40px;
+}
+
+.services-text-container>img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.about-text-container>img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.overlay{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+#ErrorMessage {
+    color: red;
+    display: none;
+}
